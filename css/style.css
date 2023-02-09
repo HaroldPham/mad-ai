@@ -8,7 +8,7 @@ body{
 }
 
 h1,h2{
-    font-family: "Raleway", Helvetica, sans-serif;
+    font-family: "Montserrat", "Raleway", Helvetica, sans-serif;
     font-weight: 300;
     margin-top: 0;
     margin-bottom: .5rem;
@@ -72,8 +72,9 @@ nav a{
 
 .bBackground {
     background-color: #0084af;
-    margin: 1.85rem 12rem;
+    margin: 1.85rem 10rem;
 }
+
 header{
     color: white;
     padding-top: 6rem;
@@ -83,31 +84,10 @@ header{
     background-position: center;
     background-color: #0084af;
 }
+
 header p{
     font-style: italic;
     font-size: 1.25rem;
-}
-section#menu{
-    background-color: #f0f0f0;
-}
-
-section#menu dt{
-    font-size: 1.25rem;
-    font-weight: bold;
-    margin-top: 1rem;
-}
-
-section#menu dd{
-    margin:0;
-}
-section#menu img{
-    height: 200px;
-    border-radius: 15px;
-}
-
-section#about{
-    background-color: #e0e0e0;
-    line-height: 1.5;
 }
 
 footer{
