@@ -2,70 +2,71 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "Nunito Sans", Arial, sans-serif;
     font-size: 16px;
 }
 
-h1,h2{
+h1,
+h2 {
     font-family: "Montserrat", "Raleway", Helvetica, sans-serif;
     font-weight: 300;
     margin-top: 0;
     margin-bottom: .5rem;
 }
 
-h1{
+h1 {
     font-size: 3.5rem;
 }
 
-h2{
+h2 {
     font-size: 2rem;
 }
 
-span.material-icons{
+span.material-icons {
     position: relative;
-    top: 5px; 
+    top: 5px;
 }
 
-.container{
+.container {
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
     padding: 1rem;
 }
 
-p,dl{
-    margin-top:0;
+p,
+dl {
+    margin-top: 0;
     margin-bottom: 1rem;
 }
 
-nav{
+nav {
     position: fixed;
     width: 100%;
     color: white;
     background-color: #2c96bf;
-    padding: .5rem;
-    padding-bottom: 1rem;
+    padding: 1rem 0 1rem 0.5rem;
     top: 0;
     left: 0;
 }
 
-nav ul{
+nav ul {
     margin: 0;
     padding: 0;
 
 }
 
-nav ul li:first-of-type{
+nav ul li:first-of-type {
     padding-right: 33em;
 }
 
-nav li{
+nav li {
     display: inline;
     margin: 0 1.5rem;
 }
 
-nav a{
+nav a {
     color: black;
     text-decoration: none;
 }
@@ -73,47 +74,55 @@ nav a{
 .bBackground {
     background-color: #0084af;
     margin: 1.85rem 10rem;
+    text-align: center;
 }
 
-header{
+header {
     color: white;
     padding-top: 6rem;
     padding-bottom: 1rem;
     background-image: url('../img/main.jpg');
-    background-size:contain; 
+    background-size: cover;
     background-position: center;
     background-color: #0084af;
 }
 
-header p{
+header p {
     font-style: italic;
     font-size: 1.25rem;
 }
 
-footer{
+footer {
     color: white;
     background-color: #0084af;
 }
-footer a{
-    color: white;
+
+footer a {
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
-footer p{
+footer p {
     margin: 0;
     line-height: 1.25;
 }
 
-footer p:last-of-type{
+footer p:last-of-type {
     padding-top: 8px;
 }
 
-.selPage{
-    color:#f0f0f0;
+.selPage {
+    color: #f0f0f0;
     border-bottom: solid .8rem #f0f0f0;
 }
 
-nav a:hover, nav a:active, nav a:focus  { 
-    color:#f0f0f0;
+footer div.container a:hover {
+    color: rgb(255, 255, 255);
+}
+
+nav a:hover,
+nav a:active,
+nav a:focus {
+    color: #f0f0f0;
     border-bottom: solid .8rem #f0f0f0;
 }
