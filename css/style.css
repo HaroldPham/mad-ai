@@ -7,7 +7,7 @@ body {
     font-size: 16px;
     background-color: #cdebff;
     background-image: url('../img/body.jpg');
-    background-size: auto;
+    background-size: cover;
     background-position: center;
     background-color: #0084af;
 }
@@ -95,13 +95,13 @@ nav a {
 }
 
 .bBackground {
-    background-color: #0084af;
+    background-color: #c0ff5a;
     margin: 1.85rem 10rem;
     text-align: center;
 }
 
 header {
-    color: white;
+    color: black;
     padding-top: 6rem;
     padding-bottom: 1rem;
     background-image: url('../img/main.jpg');
@@ -121,7 +121,7 @@ header p:first-of-type {
 }
 
 section {
-    background-color: #2c96bf;
+    background-color: #c0ff5a;
     padding: 1em 0;
     margin: 1em 10em;
 }
@@ -130,6 +130,21 @@ section ul {
     margin: 1.5em 9em;
 }
 
+.cybersecurity img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35vw;
+    width: 45vw;
+}
+
+.side-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20vw;
+    width: 45vw;
+}
 .attribution {
     margin: 0;
     padding: 0;
