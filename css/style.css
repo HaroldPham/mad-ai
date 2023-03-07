@@ -22,11 +22,11 @@ h2 {
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 2rem;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: .75em 0;
 }
 
@@ -38,12 +38,12 @@ h3 {
 p,
 dl {
     margin-bottom: 1em;
-    margin-left: 8em;
-    margin-right: 8em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 .quote {
-    margin-left: 11em;
+    margin-left: 3em;
 }
 
 img {
@@ -63,13 +63,13 @@ span.material-icons {
     padding: 1rem;
 }
 
-
 nav {
     position: fixed;
     width: 100%;
     color: white;
     background-color: #2c96bf;
     padding: 1rem 0 1rem 0.5rem;
+    margin-bottom: 150px;
     top: 0;
     left: 0;
 }
@@ -81,12 +81,16 @@ nav ul {
 }
 
 nav ul li:first-of-type {
-    padding-right: 20em;
+    padding-right: 0;
+    display: none;
 }
 
 nav li {
-    display: inline;
+    display: flex;
     margin: 0 1.5rem;
+    font-size: 12px;
+    background-color: #0084af;
+    padding: .15em 1em;
 }
 
 nav a {
@@ -96,16 +100,15 @@ nav a {
 
 .bBackground {
     background-color: #c0ff5a;
-    margin: 1.85rem 10rem;
+    margin: 1.85rem 2rem;
     text-align: center;
 }
 
 header {
     color: black;
-    padding-top: 6rem;
-    padding-bottom: 1rem;
+    padding-top: 10rem;
     background-image: url('../img/main.jpg');
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-color: #0084af;
 }
@@ -123,14 +126,22 @@ header p:first-of-type {
 section {
     background-color: #c0ff5a;
     padding: 1em 0;
-    margin: 1em 10em;
+    margin: 1em 2em;
 }
 
 section ul {
-    margin: 1.5em 9em;
+    margin: 1.5em 1em;
 }
 
-.cybersecurity img{
+iframe {
+    display: block;
+    width: 77vw;
+    height: 250vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cybersecurity img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -145,6 +156,7 @@ section ul {
     height: 20vw;
     width: 45vw;
 }
+
 .attribution {
     margin: 0;
     padding: 0;
@@ -175,16 +187,84 @@ footer p:last-of-type {
 
 .selPage {
     color: #f0f0f0;
-    border-bottom: solid .8rem #f0f0f0;
 }
 
 footer div.container a:hover {
     color: rgb(255, 255, 255);
 }
 
-nav a:hover,
-nav a:active,
-nav a:focus {
-    color: #f0f0f0;
-    border-bottom: solid .8rem #f0f0f0;
+
+
+@media (min-width:1080px) {
+
+
+    header {
+        padding-top: 6rem;
+        padding-bottom: 1rem;
+        background-size: cover;
+
+    }
+
+    nav li {
+        display: inline;
+        margin: 0 1.5rem;
+        font-size: 16px;
+        background-color: #2c96bf;
+        padding: 0;
+    }
+
+    nav ul li:first-of-type {
+        padding-right: 0;
+        display: none;
+    }
+
+    section {
+        margin: 1em 10em;
+    }
+
+    section ul {
+        margin: 1.5em 9em;
+    }
+
+    .bBackground {
+        margin: 1.85rem 10rem;
+    }
+
+    p,
+    dl {
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin: .75em 0;
+    }
+
+    section ul {
+        margin: 1.5em 9em;
+    }
+
+    .quote {
+        margin-left: 11em;
+    }
+
+    nav a:hover,
+    nav a:active,
+    nav a:focus {
+        color: #f0f0f0;
+        border-bottom: solid .8rem #f0f0f0;
+    }
+}
+
+@media (min-width: 1200px) {
+    nav ul li:first-of-type {
+        padding-right: 20em;
+    }
+
 }
