@@ -264,6 +264,7 @@ footer div.container a:hover {
 
 @media (min-width: 1200px) {
     nav ul li:first-of-type {
+        display: inline;
         padding-right: 20em;
     }
 
