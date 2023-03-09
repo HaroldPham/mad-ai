@@ -107,10 +107,66 @@ nav a {
 header {
     color: black;
     padding-top: 10rem;
-    background-image: url('../img/main.jpg');
-    background-size: contain;
+}
+
+.index {
+    background-image: url('../img/cover_home.png');
+    background-size: cover;
     background-position: center;
     background-color: #0084af;
+}
+
+.mvd {
+    background-image: url('../img/cover_mvd.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #0084af;
+}
+
+.cases {
+    background-image: url('../img/cover_cases.jpeg');
+    background-size: auto;
+    background-position: center;
+    background-color: #0084af;
+}
+
+.citations {
+    background-image: url('../img/main.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #0084af;
+}
+
+.blog {
+    background-image: url('../img/cover_blog.jfif');
+    background-size: cover;
+    background-position: center;
+    background-color: #0084af;
+}
+
+.quiz {
+    background-image: url('../img/cover_quiz.png');
+    background-size: cover;
+    background-position-y: -260px;
+    background-position-x: center;
+    background-color: #0084af;
+}
+
+.infrastructures {
+    background-image: url('../img/cover_infrastructures.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-color: #0084af;
+}
+
+.goodGPT img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.goodGPT p {
+    margin-left: 4em;
+    margin-right: 4em;
 }
 
 header p {
@@ -136,7 +192,7 @@ section ul {
 iframe {
     display: block;
     width: 77vw;
-    height: 250vw;
+    height: 300vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -147,6 +203,21 @@ iframe {
     margin-right: auto;
     height: 35vw;
     width: 45vw;
+}
+
+.education img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 28vw;
+    width: 44vw;
+}
+
+.disChatGPT img, .misChatGPT img {
+ height: 100%;
+ width: 100%;
+ margin-left: auto;
+ margin-right: auto;
 }
 
 .side-img {
