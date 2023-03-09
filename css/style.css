@@ -5,7 +5,7 @@
 body {
     font-family: "Nunito Sans", Arial, sans-serif;
     font-size: 16px;
-    background-color: #cdebff;
+    background-color:#003b6c;
     background-image: url('../img/body.jpg');
     background-size: cover;
     background-position: center;
@@ -99,9 +99,10 @@ nav a {
 }
 
 .bBackground {
-    background-color: #c0ff5a;
+    color: white;
     margin: 1.85rem 2rem;
     text-align: center;
+    text-shadow: 2px 2px 3px orange, 0 0 2em blue, 0 0 0.3em blue;
 }
 
 header {
@@ -114,6 +115,7 @@ header {
     background-size: cover;
     background-position: center;
     background-color: #0084af;
+    
 }
 
 .mvd {
@@ -164,9 +166,18 @@ header {
     margin-right: auto;
     margin-left: auto;
 }
+
 .goodGPT p {
     margin-left: 4em;
     margin-right: 4em;
+}
+
+.blog_motive img {
+    display:block;
+    height: 80%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header p {
@@ -180,7 +191,7 @@ header p:first-of-type {
 }
 
 section {
-    background-color: #c0ff5a;
+    background-color: #ffb96f;
     padding: 1em 0;
     margin: 1em 2em;
 }
@@ -213,12 +224,15 @@ iframe {
     width: 44vw;
 }
 
-.disChatGPT img, .misChatGPT img {
- height: 100%;
- width: 100%;
- margin-left: auto;
- margin-right: auto;
+.disChatGPT img,
+.misChatGPT img {
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+
 
 .side-img {
     display: block;
@@ -268,7 +282,10 @@ footer div.container a:hover {
 
 @media (min-width:1080px) {
 
-
+    .disChatGPT p, .misChatGPT p{
+        margin-left: 5em;
+        margin-right: 5.5em;
+    }
     header {
         padding-top: 6rem;
         padding-bottom: 1rem;
