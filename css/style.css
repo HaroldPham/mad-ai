@@ -283,14 +283,13 @@ footer div.container a:hover {
 @media (min-width:1080px) {
 
     .disChatGPT p, .misChatGPT p{
-        margin-left: 5em;
-        margin-right: 5.5em;
+        margin-left: 4em;
+        margin-right: 4em;
     }
     header {
         padding-top: 6rem;
         padding-bottom: 1rem;
         background-size: cover;
-
     }
 
     nav li {
