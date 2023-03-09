@@ -5,7 +5,7 @@
 body {
     font-family: "Nunito Sans", Arial, sans-serif;
     font-size: 16px;
-    background-color:#003b6c;
+    background-color: #003b6c;
     background-image: url('../img/body.jpg');
     background-size: cover;
     background-position: center;
@@ -115,7 +115,7 @@ header {
     background-size: cover;
     background-position: center;
     background-color: #0084af;
-    
+
 }
 
 .mvd {
@@ -173,7 +173,7 @@ header {
 }
 
 .blog_motive img {
-    display:block;
+    display: block;
     height: 80%;
     width: 80%;
     margin-left: auto;
@@ -232,7 +232,11 @@ iframe {
     margin-right: auto;
 }
 
-
+section.citation img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .side-img {
     display: block;
@@ -282,10 +286,12 @@ footer div.container a:hover {
 
 @media (min-width:1080px) {
 
-    .disChatGPT p, .misChatGPT p{
+    .disChatGPT p,
+    .misChatGPT p {
         margin-left: 4em;
         margin-right: 4em;
     }
+
     header {
         padding-top: 6rem;
         padding-bottom: 1rem;
